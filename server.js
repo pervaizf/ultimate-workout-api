@@ -28,9 +28,6 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html")
 })
 
-app.get("/css/style.css"), (req, res) => {
-    res.sendFile(__dirname + /css/style.css)
-}
 
 app.get("/api/:part", (req, res) => {
     let partSearch = req.params.part
