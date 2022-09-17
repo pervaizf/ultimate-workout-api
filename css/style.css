@@ -1,0 +1,16 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 35%, rgba(140,140,140,1) 100%);
+}
+
+h1,
+h2,
+section, 
+li {
+    display: flex;
+    justify-content: center
+}
+
+li {
+    margin-right: 2.5%;
+}

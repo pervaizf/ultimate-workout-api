@@ -30,7 +30,6 @@ app.get("/", (req, res) => {
 
 app.get("/api/:part", (req, res) => {
     let partSearch = req.params.part
-    console.log(partSearch)
     if (workout[partSearch]) {
     res.json(workout[partSearch])
     } else res.json(workout["unknown"])
